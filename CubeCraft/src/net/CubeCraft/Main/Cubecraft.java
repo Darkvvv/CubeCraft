@@ -1,5 +1,7 @@
 package net.CubeCraft.Main;
 
+import net.CubeCraft.gui.GuiSplashScreen;
+
 public class Cubecraft 
 {
 	
@@ -17,7 +19,8 @@ public class Cubecraft
 	private static void init() 
 	{
 	
-		
+		new GuiSplashScreen();
+		new MainLoop();
 		
 	}
 	
