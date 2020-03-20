@@ -8,9 +8,9 @@ import javax.swing.JPanel;
 @SuppressWarnings("serial")
 public class Screen extends JFrame 
 {
-	
-	JPanel background = new JPanel();
 
+	public static JPanel background = new JPanel();
+	
 	public Screen(String title, int width, int height) 
 	{
 		

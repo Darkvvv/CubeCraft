@@ -21,7 +21,7 @@ public class Gui
 		label = new JLabel(imageToAdd);
 		label.setBounds(x, y, width, height);
 		
-		screen.add(label);
+		Screen.background.add(label);
 		
 	}
 	
@@ -31,7 +31,7 @@ public class Gui
 		JLabel label = new JLabel(text);
 		label.setBounds(x, y, width, height);
 		
-		screen.add(label);
+		Screen.background.add(label);
 		
 	}
 	

@@ -10,8 +10,8 @@ public class GuiSplashScreen extends Gui
 	public GuiSplashScreen() 
 	{
 		
-		this.width = screen.getWidth() * 7;
-		this.height = screen.getHeight() * 4;
+		this.width = screen.getWidth();
+		this.height = screen.getHeight();
 		this.drawImage("../Files/splash.png", 0, 0, screen.getWidth(), screen.getHeight());
 		
 	}
@@ -21,7 +21,7 @@ public class GuiSplashScreen extends Gui
 		
 		System.out.println("GuiSplashScreen is updated!");
 		
-		label.setBounds(-2000, -750, width, height);
+		label.setBounds(0, 0, width, height);
 		
 	}
 	
