@@ -3,6 +3,8 @@ package net.CubeCraft.gui;
 public class GuiSplashScreen extends Gui 
 {
 	
+	long id = 1;
+	
 	static int width;
 	static int height;
 	

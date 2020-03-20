@@ -3,7 +3,7 @@ package net.CubeCraft.gui;
 public class GuiManager 
 {
 
-	public static void GuiDisplayScreen(Gui screen) 
+	public static void GuiDisplayScreen(long screenId) 
 	{
 		
 		boolean isAtDisplay = false;
@@ -11,7 +11,12 @@ public class GuiManager
 		if(!isAtDisplay) 
 		{
 			
-			((Gui)screen).display();
+			if(screenId == 1) 
+			{
+				
+				new GuiSplashScreen();
+				
+			}
 			
 		}
 		

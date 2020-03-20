@@ -9,6 +9,8 @@ import net.CubeCraft.Main.Screen;
 public class Gui 
 {
 	
+	long id;
+	
 	static JLabel label;
 	Screen screen = Cubecraft.screen;
 	ImageIcon imageToAdd;
